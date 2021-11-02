@@ -1,0 +1,121 @@
+// let arr = [ 1, 
+//             true, 
+//             1.1, 
+//             "string", 
+//             null, 
+//             [1, 2, 3, 4, 5], 
+//             function fn(){
+//                 console.log("hello I am a function inside an array");
+//                 return "rval";
+//             }
+//         ]
+
+//     console.log(arr[6]().length);
+
+    // function fn(){
+    //     fn1();
+    //     // console.log(fn1());
+    //     console.log("Hello I am a function");
+    //     return 10;
+    // }
+    
+    // // console.log(fn);
+    // let rval = fn()
+    // console.log("rval", rval);
+
+    // function fn1(){
+    //     console.log("I am a f1");
+    //     // return "hello" ;
+    // }
+// let arr = [1, 2, 3, 4, 5];
+
+// let  k = arr.splice(2,2);
+// console.log(k);
+// console.log(arr);
+
+// let k = 2;
+let n = 12345678;
+
+let l = 0;
+    
+    while( n != 0){
+        n = Math.floor( n/ 10);
+        l++;
+    }
+
+    console.log(l);
+// for( let i=1; i<=10; i++ ){
+//     console.log("number is "+ i );
+// }
+
+let a;
+
+a = 2;
+a = "I am a String";
+a = 'I am also a String';
+a = true;
+a = null;
+a = 5/2;
+
+console.log(a); // let obj = {};
+
+let cap = {
+    
+    first_name: "Steve",
+    last_name: "Rogers",
+    friends: ["Tony","Bruce", "Nate"],
+    age: 34,
+    isAvanger: false,
+    Sayhi: function(){
+        console.log("cap say's hai");
+    },
+    address: {
+        state: "New York",
+        city: "NY city",
+    },
+}
+
+// console.log(cap.first_name);
+delete cap.address.city;
+
+console.log(cap.address);
+cap.address = {
+    city:"NY City",
+}
+console.log(cap.address);// let str = "  Hello I am a String   ";
+// // console.log(str);
+
+
+// str = str.trim();
+
+// let ArrayStr = str.split("a");
+// console.log(ArrayStr);
+
+// // let charAt = str.charAt(4)
+// // console.log(charAt);
+
+// // let slicestr = str.slice(0, 20);
+// // console.log(slicestr);
+
+
+
+
+// let ans = ArrayStr.join(" ");
+// console.log(ans)
+
+
+// let str = "The quick brown fox jumped over the lazy dog";
+    
+// let arraystr = str.split(" ");
+// let l = arraystr.length;
+// let k = arraystr[0].length;
+// for( let i = 1; i < l; i++ ){
+        
+//     if( k < arraystr[i].length){
+//         k = arraystr[i].length;
+//     }
+    
+    
+// }
+// console.log(k);
+
