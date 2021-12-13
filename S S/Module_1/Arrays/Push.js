@@ -1,3 +1,5 @@
+// Push, Pop works on end of an array
+
 // Push will append 1 or more value at the end.
 // Push will also return length 
 let arr = [10, 20, 30, 40, 50];

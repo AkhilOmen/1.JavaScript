@@ -1,3 +1,5 @@
+// Push, Pop works on end of an array
+
 // Pop will remove 1 from the end.
 // Pop will also return the removed value 
 let arr = [10, 20, 30, 40, 50];
