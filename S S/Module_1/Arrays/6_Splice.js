@@ -1,3 +1,4 @@
+
 let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90];
 
 //  arr will loss the data if we use splice.
@@ -17,3 +18,10 @@ displayArr(arr);
 function displayArr(arr){
     console.log( arr + " = " + arr.length);
 }
+
+
+// // For removel
+// arr.splice(i, 1);
+
+// // For insert
+// arr.splice(i, 0, val);
