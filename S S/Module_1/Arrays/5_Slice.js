@@ -17,7 +17,6 @@ displayArr(na2);
 let na3 = arr.slice();
 displayArr(na3);
 
-
 // We can also give -ve indices
 let na4 = arr.slice(-9, -4);
 displayArr(na4);
