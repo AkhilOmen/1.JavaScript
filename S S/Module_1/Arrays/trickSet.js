@@ -33,7 +33,8 @@ displayArr(arr1);
 displayArr(arr2);
 
 // Example 2 -> let create an object array
-// If we can see here If we change arr4[2] data the arr3 get affected -> in arr3 and arr4 the obj are stored as addresses i.e as reference there a change in object will affect both arr3 and arr4
+// If we can see here If we change arr4[2] data the arr3 get affected -> 
+// In arr3 and arr4 the obj are stored as addresses i.e as reference there a change in object will affect both arr3 and arr4
 let o1 = {
     age:100
 }
