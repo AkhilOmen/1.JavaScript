@@ -40,3 +40,6 @@ let Evenval = arr.filter(function(val, idx, arr){
 })
 
 console.log("[ " + Evenval + " ]");
+
+
+// We just need to decide what is true according to our need, filter will return all values which are true according to our condition.
