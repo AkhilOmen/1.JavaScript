@@ -16,5 +16,5 @@ Array.prototype.myMap = function(callback){
 let arr = [1, 2, 3, 4, 5];
 let ans = arr.myMap(function(val, idx, arr){
     return val * val;
-})
+});
 console.log( "[ "+ ans + " ]" );
