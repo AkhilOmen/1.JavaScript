@@ -1,3 +1,5 @@
+
+// If you want to write any function on Array we can use ********** Array.prototype.functionName *********
 Array.prototype.myMap = function(callback){
 
     let rarr = [];
