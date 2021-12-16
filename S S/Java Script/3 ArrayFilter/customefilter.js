@@ -1,5 +1,5 @@
 
-Array.prototype.Myfilter = function(cb){
+Array.prototype.myFilter = function(cb){
 
     let res = [];
 
@@ -21,7 +21,7 @@ Array.prototype.Myfilter = function(cb){
 let arr = [2, 5, 6, 9, 8, 15, 11, 16];
 
 // As I am using true for odd val, It will return all odd value
-let Oddval = arr.Myfilter(function(val, idx, arr){
+let Oddval = arr.myFilter(function(val, idx, arr){
     
     if(val % 2 == 0){
         return false;
