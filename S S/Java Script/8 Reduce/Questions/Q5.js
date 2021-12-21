@@ -16,7 +16,13 @@ let x = 10;
 
 // Answer
 
-let ans = farr.reverse().reduce( (pv, cv) => {
+// Normal reduce...............
+// let ans = farr.reverse().reduce( (pv, cv) => {
+//     return cv(pv);
+// }, x);
+
+// we can use reduceRight....
+let ans = farr.reduceRight( (pv, cv) => {
     return cv(pv);
 }, x);
 
