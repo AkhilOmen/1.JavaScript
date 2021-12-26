@@ -12,6 +12,7 @@ let secondFunction = function orginalFunction(){
     console.log(" I am expression");
 }
 // we can call the varibale, the function will run.
+// because the function address will be stored in variable, therefore we can call the orginalFunction... It will throw an error..
 secondFunction();
 
 
