@@ -27,14 +27,14 @@ console.log("After");
 // 4. Anonymous functions
 // The functions that dosen't require names
 
-// // e1 -> for IIFEE function we don't need to give any name, as It runs automatically
+// // exp1 -> for IIFEE function we don't need to give any name, as It runs automatically
      console.log("Before");
      (function (){
          console.log("I am Anonymous function 1");
      })(); 
      console.log("After");
 
-// // e2 -> for function expression we don't need to give any name
+// // exp2 -> for function expression we don't need to give any name
      let secondFunction1 = function (){
          console.log("I am Anonymous function 2");
      }

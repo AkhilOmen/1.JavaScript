@@ -1,6 +1,8 @@
 
 function fn(parem){
     console.log(" I am function defination ", parem);
+
+    // parem(); // Valid for d option
 }
 
 
@@ -9,7 +11,7 @@ function fn(parem){
 fn(true);
 
 
-// 2. Here Address will be passed....
+// 2. Here Address will be passed.... 
 
 // a. string 
 // Referance type
