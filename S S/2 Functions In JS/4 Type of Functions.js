@@ -1,5 +1,5 @@
 
-// 1. functions defination.
+// 1. functions defination i.e function declaration.
 function fn(){
     console.log(" I am function defination ");
 }
