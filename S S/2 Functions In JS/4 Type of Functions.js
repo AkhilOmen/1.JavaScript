@@ -1,5 +1,6 @@
 
 // 1. functions defination i.e function declaration.
+// In function declaration -> Both fun name and fn defination are hoisted
 function fn(){
     console.log(" I am function defination ");
 }
@@ -8,6 +9,7 @@ fn();
 
 // 2. function expression.
 // we can save a function address in a variable.
+// In function expression variable will be hoisted but function defination will not be hoisted.
 let secondFunction = function orginalFunction(){
     console.log(" I am expression");
 }
