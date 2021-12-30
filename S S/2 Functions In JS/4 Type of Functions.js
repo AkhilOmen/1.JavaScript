@@ -36,6 +36,7 @@ console.log("After");
      })(); 
      console.log("After");
 // 
+
 // // exp2 -> for function expression we don't need to give any name
      let secondFunction1 = function (){
          console.log("I am Anonymous function 2");
