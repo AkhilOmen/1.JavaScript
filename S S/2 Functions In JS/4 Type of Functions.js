@@ -18,7 +18,7 @@ let secondFunction = function orginalFunction(){
 secondFunction();
 
 
-// 3. IIFEE -> Immediately invoke the function expression.
+// 3. IIFE -> Immediately invoke the function expression.
 console.log("Before");
 (function drawBoard(){
     console.log("Board is Immerdiately drawn, I am IIFEE function");
