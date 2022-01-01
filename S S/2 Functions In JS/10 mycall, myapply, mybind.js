@@ -36,6 +36,10 @@ let obj = {
         thisForMainfn.fun(...argsForMainfn);
         // after running the fun we have added to the obj, we should delete the fun from the object b/c we should not spoolie the obj given as input.
         delete thisForMainfn.fun;
+
+        // eg->
+        // arr = [10, 20, 30, 40, 50]
+        // ...arr = 10, 20, 30, 40, 50
     }
 
     
