@@ -23,6 +23,6 @@ o1.exp = 3;
 let val2 = squarer(5);
 console.log(val2);
 
-o1.exp = 4;
-let val3 = squarer(5);
-console.log(val3);
+// o1.exp = 4;
+// let val3 = squarer(5);
+// console.log(val3);
